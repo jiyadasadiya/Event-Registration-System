@@ -1,7 +1,7 @@
 CPP10 PROJECT: EVENT REGISTRATION SYSTEM
-Student name: [ENTER YOUR NAME]
-Enrollment number: [ENTER YOUR ENROLLMENT NUMBER]
-GitHub URL: [ADD YOUR REPOSITORY URL]
+Student name: Jiya Dasadia
+Enrollment number: IU2541230420
+GitHub URL: https://github.com/jiyadasadiya/Event-Registration-System
 
 OVERVIEW
 A modular, menu-driven C++ application to manage events, participants, organizers, and registrations. It demonstrates classes, encapsulation, STL vectors, exceptions, validation, modular compilation, and file persistence.
