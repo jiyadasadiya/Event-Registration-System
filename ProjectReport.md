@@ -85,13 +85,16 @@ Cancellation performs the reverse seat-count adjustment and deletes the registra
 Each record uses a pipe (`|`) delimiter. Field values must not contain the delimiter. The files are plain text and can be inspected with a text editor.
 
 ## 12. UML Diagrams
-Four PlantUML source files are included in the `Diagrams` folder:
-- `class_diagram.puml` — classes, attributes, and relationships.
-- `use_case_diagram.puml` — system functions and external roles.
-- `activity_diagram.puml` — registration decision flow.
-- `sequence_diagram.puml` — interaction between user, EventSystem, Event, Registration, and FileManager.
 
-Render these sources with a PlantUML-compatible renderer if image versions are required by the instructor.
+The following diagrams are included in the `Diagrams` folder as clean, rendered PNG images and editable source files:
+
+1. `use_case_diagram.png` — three standard stick-figure actors (Participant, Organizer, Administrator) and eight use cases inside the system boundary.
+2. `class_diagram.png` — major classes, private data members (`-`), public member functions (`+`), and relationships.
+3. `sequence_registration.png` — Sequence Diagram 1 for the main transaction: registering a participant for an event.
+4. `sequence_cancellation.png` — Sequence Diagram 2 for another important operation: cancelling a registration.
+5. `activity_diagram.png` — registration decision flow.
+
+Editable `.puml` PlantUML and `.dot` Graphviz sources are supplied for the use case, class, and both sequence diagrams. The two sequence diagrams show different operations.
 
 ## 13. Testing and Expected Results
 A manual test plan is provided in `Tests/test_plan.txt`. It covers normal operations, invalid input, duplicate registrations, capacity limits, cancellation, and persistence after restart. Expected behaviour is described in the test plan; actual execution results and screenshots must be captured on the target computer rather than assumed.

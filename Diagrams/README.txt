@@ -1,1 +1,0 @@
-Four UML diagram sources (.puml) and corresponding rendered PNGs are included: class, use case, activity, and sequence diagrams. PNGs are visual renderings of the project design; edit the .puml source if the design changes.
