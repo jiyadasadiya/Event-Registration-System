@@ -1,1 +1,2 @@
 1|Computer Science Club|CSE Department
+2|art club|fashiondesigning department
